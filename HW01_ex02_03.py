@@ -44,5 +44,5 @@ middleRun = 3 * (7+(12/60)) * 60
 endRun = 1 * (8 + (15/60)) * 60 
 totalRunTime = (beginningRun + middleRun + endRun ) 
 breakfast = (( startTime + totalRunTime ) / 3600.0) * (60/100.0)
-round(breakfast, 2)
+breakfast = round(breakfast, 2)
 print(breakfast)
